@@ -1,0 +1,53 @@
+{
+  "app_name": "PixelForge Studio",
+  "version": "1.0.0",
+  "language": "id",
+  "theme": "dark",
+  "host": "127.0.0.1",
+  "port": 7860,
+  "directories": {
+    "inputs": "inputs",
+    "output": "output",
+    "temp": "temp",
+    "logs": "logs",
+    "models": "models",
+    "tools": "tools"
+  },
+  "engine": {
+    "default_model": "realesrgan-x4plus",
+    "default_scale": 4,
+    "tile_size": 0,
+    "gpu_id": 0,
+    "multi_pass_8x": false,
+    "allow_cpu_fallback": true
+  },
+  "face_restoration": {
+    "enabled": false,
+    "engine": "gfpgan",
+    "model_name": "GFPGANv1.4",
+    "strength": 0.6,
+    "aligned": false,
+    "only_center_face": false
+  },
+  "enhancement": {
+    "brightness": 1.0,
+    "contrast": 1.0,
+    "saturation": 1.0,
+    "sharpness": 1.0,
+    "denoise": 0.0,
+    "output_format": "JPG",
+    "jpeg_quality": 95,
+    "webp_quality": 90,
+    "preserve_metadata": true,
+    "auto_orient_exif": true,
+    "strip_gps": true,
+    "filename_prefix": "",
+    "filename_suffix": "_enhanced"
+  },
+  "processing": {
+    "max_batch_size": 200,
+    "sequential_processing": true,
+    "continue_on_failure": true,
+    "auto_clean_temp": true
+  }
+}

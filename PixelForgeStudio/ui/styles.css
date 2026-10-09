@@ -1,0 +1,64 @@
+/* PixelForge Studio - Fluent Dark Desktop Styling */
+:root {
+  --pf-bg-dark: #0f1117;
+  --pf-panel-dark: #1a1d27;
+  --pf-border-dark: #2a2e3d;
+  --pf-accent: #f59e0b;
+  --pf-accent-hover: #d97706;
+  --pf-text-primary: #f3f4f6;
+  --pf-text-secondary: #9ca3af;
+}
+
+body, .gradio-container {
+  background-color: var(--pf-bg-dark) !important;
+  color: var(--pf-text-primary) !important;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif !important;
+}
+
+.pf-panel {
+  background-color: var(--pf-panel-dark) !important;
+  border: 1px solid var(--pf-border-dark) !important;
+  border-radius: 12px !important;
+  padding: 16px !important;
+}
+
+.pf-btn-primary {
+  background: linear-gradient(135deg, #f59e0b, #d97706) !important;
+  color: #111827 !important;
+  font-weight: 700 !important;
+  border-radius: 8px !important;
+  transition: all 0.2s ease !important;
+}
+
+.pf-btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3) !important;
+}
+
+.pf-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.pf-badge-success {
+  background: rgba(16, 185, 129, 0.2);
+  color: #34d399;
+  border: 1px solid rgba(16, 185, 129, 0.4);
+}
+
+.pf-badge-warning {
+  background: rgba(245, 158, 11, 0.2);
+  color: #fbbf24;
+  border: 1px solid rgba(245, 158, 11, 0.4);
+}
+
+.pf-badge-danger {
+  background: rgba(239, 68, 68, 0.2);
+  color: #f87171;
+  border: 1px solid rgba(239, 68, 68, 0.4);
+}

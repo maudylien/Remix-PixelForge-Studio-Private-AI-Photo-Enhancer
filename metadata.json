@@ -1,0 +1,6 @@
+{
+  "name": "PixelForge Studio — Private AI Photo Enhancer",
+  "description": "Windows Desktop & Web Studio lokal untuk AI photo upscaling, batch processing 30-100+ foto, restorasi portrait menggunakan Real-ESRGAN NCNN Vulkan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
